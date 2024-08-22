@@ -1,0 +1,38 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .cast {
+    margin-top: 20px;
+  }
+  
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cast-item {
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cast-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
